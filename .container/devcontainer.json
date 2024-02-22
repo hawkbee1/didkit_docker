@@ -1,0 +1,10 @@
+{
+"image": "tmp:latest",
+"mounts": [
+    "source=/dev,target=/dev,type=bind"
+],
+"runArgs": [ 
+    "-it",
+    "--privileged"
+]
+}
